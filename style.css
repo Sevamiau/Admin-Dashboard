@@ -10,6 +10,8 @@ body{
 .header {
     background-color: lightcoral;
     grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
 }
 
 .sideboard {
@@ -29,5 +31,5 @@ body{
 .article .card {
     background-color: aliceblue;
     height: 200px;
-    
+
 }
