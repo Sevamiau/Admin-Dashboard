@@ -1,6 +1,12 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
+} */
+
+body {
+    margin: auto 0;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .container {
@@ -25,30 +31,9 @@
   grid-template-rows: repeat(2, 1fr) ;
 }
 
-.menu ul,
-.menu li {
-  font-size: 16px;
-}
-
 .sidebar {
   background-color: lightblue;
   grid-row: 1/4;
-
-}
-
-.sidebar .photo {
-  background-color: white;
-  color: black;
-  font-size: 12px;
-  font-weight: normal;
-  border-radius: 10px;
-}
-
-.sidebar .side-content {
-  background-color: white;
-  color: black;
-  font-size: 16px;
-  font-weight: normal;
 }
 
 .article {
@@ -82,39 +67,24 @@
 .card .title {
   font-size: 18px;
   text-align: center;
-
-}
-
-.logo {
-  justify-self: start;
-}
-
-.menu {
-  align-self: center;
-}
-
-.menu ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .article .card {
-  height: 300px;
+  height: 250px;
   border-radius: 20px;
 }
 
 .announcements {
   background-color: #f5f5f5;
   grid-column: 3/4 ;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .announcements div {
   border: 1px solid black;
-  height: 300px;
+  height: 500px;
   margin: 5px;
   margin-bottom: 2em;
   border-radius: 20px;
-
 }
 
