@@ -130,7 +130,7 @@ li {
 }
 
 .main-content {
-    background-color: rgb(182, 157, 206);
+    background-color: rgb(216, 204, 228);
 }
 
 .hat {
@@ -192,7 +192,7 @@ li {
     grid-template-columns: 3fr 1fr;
     gap: 2rem;
     padding: 2rem;
-    background-color: #e2e8f0;
+    /* background-color: #e2e8f0; */
 }
 
 .main-content h3 {
